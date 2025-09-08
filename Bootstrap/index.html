@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <!--Bootstrap-->
+    <!--iconos-->
+    <link
+       rel="stylesheet"
+       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <!--formularios-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!--Css personalizado-->
+    <link rel="stylesheet" href="css/pagina.css" />
+  </head>
+  <body>
+
+    <p>Desarrollado por: Yesid Cabezas y Alex Cuaran </p>
+    <!--Contenedor del formulario ubicacion y fondo para color, tamaño y ubicacion.--->
+    <div class="container d-flex justify-content-center align-items-center fondo">  
+    <!--Formulario--->
+    <form>
+
+    <div class="position-relative mb-3">
+      <input
+        type="text"
+        class="form-control input-oval pe-5"
+        placeholder="Nombre"
+      />
+      <i class="bi bi-person-fill icon-inside"></i>
+    </div>
+
+    <div class="position-relative mb-3">
+      <input
+        type="text"
+        class="form-control input-oval pe-5"
+        placeholder="Contraseña"
+      />
+      <i class="bi bi-file-lock2-fill icon-inside"></i>
+    </div>
+
+    <div class="position-relative mb-3">
+      <input
+        type="text"
+        class="form-control input-oval pe-5"
+        placeholder="Correo"
+      />
+      <i class="bi bi-envelope-fill icon-inside"></i>
+    </div>
+
+    <div class="position-relative mb-3">
+      <input
+        type="text"
+        class="form-control input-oval pe-5"
+        placeholder="Telefono"
+      />
+      <i class="bi bi-telephone-fill icon-inside"></i>
+    </div>
+
+    <!--casilla de seleccion-->
+      <div class="form-check ">
+        <input
+          class="form-check-input "
+          type="checkbox"
+          value=""
+          id="checkDefault"
+        />
+        <label class="form-check-label" for="checkDefault">
+          Acepto Los Términos y Condiciones
+        </label>
+      </div>
+      <!--Boton-->
+      <div style="text-align: center;">
+      <button type="button" class="btn btn-success rounded-pill">Registrarse</button>
+      </div>
+    </form>
+    </div>
+  </body>
+</html>
